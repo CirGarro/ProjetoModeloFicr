@@ -12,7 +12,7 @@ exports.listAll = (req, res) => {
         }
         res.send(response)
     })
-}
+}  
 
 exports.createOne = async (req, res) => {
     const { titulo, descricao, atividades } = req.body
